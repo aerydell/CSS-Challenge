@@ -3,8 +3,37 @@
 header {
     background-color:black;
     height: 10%;
+    width: 100%;
 }
 body {
-    background-color: blue;
+    background-image: url("img/background.jpg");
     margin: 0px;
+    font-family: 'Noto Serif', serif;
+    width:100%;
+}
+button {
+    background-color: black;
+    border: none;
+    padding:0px;
+    height:50px;
+    width:100%;
+}
+.tekst {
+    text-align: center;
+}
+.whitefield {
+    margin-left:5%;
+    margin-bottom:5%;
+    width: 90%;
+    background-color: white;
+    height: 250px;
+}
+.bottom {
+    margin-left: 5%;
+    margin-top: -5%
+}
+.middle {
+    margin-left: 5%;
+    padding-top: 57%;
+    color: gray;
 }
