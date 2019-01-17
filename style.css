@@ -17,9 +17,13 @@ button {
     padding:0px;
     height:50px;
     width:100%;
+    top: 0;
+    position: fixed;
+    padding-bottom: -10px;
 }
 .tekst {
     text-align: center;
+    color: white;
 }
 .whitefield {
     margin-left:5%;
@@ -30,10 +34,43 @@ button {
 }
 .bottom {
     margin-left: 5%;
-    margin-top: -5%
+    margin-top: -15px;
 }
 .middle {
     margin-left: 5%;
-    padding-top: 57%;
+    padding-top: 185px;
     color: gray;
+}
+li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+.responsive-menu {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 200%;
+}
+.responsive-menu ul li ul li {
+    margin: 0px;
+    margin-left: 0px;
+}
+.responsive-menu ul li ul {
+    display: none;
+    font-size: 60%;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+#trigger {
+    display: none;
+}
+#trigger:checked + .responsive-menu ul li:hover ul {
+    display: block;
+}
+#textfield {
+    border: none;
+    background-color: black;
+    color: white;
 }
