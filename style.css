@@ -110,7 +110,7 @@ a {
 #wrapper {
     background-color: white;
     color: black;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 25px 10px;
 }
 
 footer {
@@ -118,4 +118,19 @@ footer {
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+#previous {
+    box-sizing: border-box;
+    width: 40%;
+    text-align: left;
+    float: left;
+    color: darkgrey;
+}
+
+#next {
+    box-sizing: border-box;
+    width: 40%;
+    text-align: right;
+    float: right;
+    color: darkgrey;
 }
